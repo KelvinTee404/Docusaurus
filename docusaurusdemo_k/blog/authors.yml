@@ -21,3 +21,14 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+kelvin:
+  name: Kelvin Tee
+  title: Random Passerby
+  url: https://github.com/KelvinTee404
+  image_url: https://github.com/KelvinTee404.png
+  page: true
+  socials:
+    YouTube: https://www.youtube.com/@kelvintee292
+    Twitch: https://www.twitch.tv/kelvin_tee
+    github: KelvinTee404
