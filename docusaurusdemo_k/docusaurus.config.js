@@ -90,7 +90,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/KelvinTee404/Docusaurus',
             label: 'GitHub',
             position: 'right',
           },
@@ -149,3 +149,20 @@ const config = {
 };
 
 export default config;
+
+module.exports = {
+  // Other configurations...
+  plugins: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        // Options are optional
+        hashed: true, // Enable hashed file names for caching
+        language: ['en'], // Support for English; add other languages if needed
+        indexDocs: true, // Index documentation files
+        indexPages: true, // Index static pages
+        docsRouteBasePath: '/', // Base path for docs
+      },
+    ],
+  ],
+};
