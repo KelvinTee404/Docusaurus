@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurusdemo_k=self.webpackChunkdocusaurusdemo_k||[]).push([[605],{35:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Kelvin/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
