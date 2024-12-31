@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Kelvin\'s 101',
-  tagline: 'Your guide to this course.',
+  tagline: 'Chaotic but extremely simplified tutorial.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -79,8 +79,9 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/github.png',
         },
+
         items: [
           {
             type: 'docSidebar',
@@ -88,9 +89,11 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
+          {to: '/basic_info', label: 'About', position: 'left' },
+          {to: '/author', label: 'About Author', position: 'left' },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/KelvinTee404/Docusaurus',
+            href: 'https://github.com/KelvinTee404/',
             label: 'GitHub',
             position: 'right',
           },
@@ -145,24 +148,15 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      algolia: {
+        appId: 'MS6CT8PMNU', // Replace with your Application ID
+        apiKey: '438785d2a16727c3235b4440c8300dc1', // Replace with your Search-only API Key
+        indexName: 'search', // Replace with your index name
+        contextualSearch: true, // Enable contextual search (optional)
+        searchParameters: {}, // Additional search parameters (optional)
+      },
     }),
 };
 
 export default config;
 
-module.exports = {
-  // Other configurations...
-  plugins: [
-    [
-      '@easyops-cn/docusaurus-search-local',
-      {
-        // Options are optional
-        hashed: true, // Enable hashed file names for caching
-        language: ['en'], // Support for English; add other languages if needed
-        indexDocs: true, // Index documentation files
-        indexPages: true, // Index static pages
-        docsRouteBasePath: '/', // Base path for docs
-      },
-    ],
-  ],
-};
