@@ -149,9 +149,9 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       algolia: {
-        appId: 'MS6CT8PMNU', // Replace with your Application ID
-        apiKey: '438785d2a16727c3235b4440c8300dc1', // Replace with your Search-only API Key
-        indexName: 'search', // Replace with your index name
+        appId: 'IFTMI02VN5', // Replace with your Application ID
+        apiKey: '7d0039069d30162cbd650a434a4307a6', // Replace with your Search-only API Key
+        indexName: 'kelvintee404io', // Replace with your index name
         contextualSearch: true, // Enable contextual search (optional)
         searchParameters: {}, // Additional search parameters (optional)
       },
