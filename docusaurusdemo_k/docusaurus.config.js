@@ -156,6 +156,7 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  themes: ['@docusaurus/theme-search-algolia'],
 };
 
 export default config;
