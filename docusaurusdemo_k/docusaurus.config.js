@@ -19,6 +19,7 @@ const config = {
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/Docusaurus/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -99,13 +100,13 @@ const config = {
           },
         ],
       },
-      algolia: {
+      /**algolia: {
         appId: 'IFTMI02VN5', // Replace with your Application ID
         apiKey: '5f812d8929b3545eba6e61ff229b612e', // Replace with your Search-only API Key
         indexName: 'kelvintee404io', // Replace with your index name
         contextualSearch: true, // Enable contextual search (optional)
         searchParameters: {}, // Additional search parameters (optional)
-      },
+      },*/
       footer: {
         style: 'dark',
         links: [
@@ -156,7 +157,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
-  themes: ['@docusaurus/theme-search-algolia'],
 };
 
 export default config;
