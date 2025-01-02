@@ -150,7 +150,7 @@ const config = {
       },
       algolia: {
         appId: 'IFTMI02VN5', // Replace with your Application ID
-        apiKey: '7d0039069d30162cbd650a434a4307a6', // Replace with your Search-only API Key
+        apiKey: '5f812d8929b3545eba6e61ff229b612e', // Replace with your Search-only API Key
         indexName: 'kelvintee404io', // Replace with your index name
         contextualSearch: true, // Enable contextual search (optional)
         searchParameters: {}, // Additional search parameters (optional)
