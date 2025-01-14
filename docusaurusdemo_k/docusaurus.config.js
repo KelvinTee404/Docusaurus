@@ -91,7 +91,6 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/basic_info', label: 'About', position: 'left' },
-          {to: '/author', label: 'About Author', position: 'left' },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/KelvinTee404/',
