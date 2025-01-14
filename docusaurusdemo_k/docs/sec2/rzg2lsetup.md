@@ -59,7 +59,7 @@ MACHINE=smarc-rzg2l bitbake core-image-qt
 ## Write to SD Card
 
 ```
-cd build/tmp/deploy/images/smarc-rag2l/
+cd build/tmp/deploy/images/smarc-rzg2l/
 ```
 
 ```
