@@ -10,4 +10,3 @@ sudo apt install libopencv-dev python3-opencv
 ```
 
 https://gstreamer.freedesktop.org/documentation/installing/index.html?gi-language=c
-
